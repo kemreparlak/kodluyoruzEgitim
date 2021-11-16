@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patika.Dev Ödevler</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="tarifler.html">Tarifler</a></li>
+        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+      </ul>
+    </nav>
+    <div class="contact">
+      <h1 class="title">İletişim</h1>
+      <form action="#">
+        <label for="customerName">ADI <em>&#x2a;</em></label
+        ><input
+          id="customerName"
+          name="customerName"
+          required=""
+          type="text"
+        /><label for="customerEmail">EMAIL <em>&#x2a;</em></label
+        ><input
+          id="customerEmail"
+          name="customerEmail"
+          required=""
+          type="email"
+        /><label for="customerPhone">TEL</label
+        ><input
+          id="customerPhone"
+          name="customerPhone"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          type="tel"
+        /><label for="customerNote">MESAJINIZ<em>&#x2a;</em></label
+        ><textarea
+          id="customerNote"
+          name="customerNote"
+          required=""
+          rows="4"
+        ></textarea>
+        <label for="spamProtection"
+          >SPAM KORUMASI <em>&#x2a; </em
+          ><span
+            >&nbsp;&nbsp;&nbsp;&nbsp;Dünün yarını Perşembe ise bugün
+            nedir?</span
+          ></label
+        ><input id="spamProtection" name="spamProtection" type="text" /><button
+          id="customerOrder"
+        >
+          GÖNDER
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
