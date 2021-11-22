@@ -1,0 +1,53 @@
+@import url(../reset.css);
+body {
+  margin: 8px;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search {
+  text-align: center;
+  width: 100%;
+  background-color: #eee;
+  margin: 0 auto;
+  padding: 2px 0;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  text-align: center;
+}
+.section1 {
+  flex-grow: 2;
+  padding: 11px 0;
+  border: 1px solid #fff;
+  height: 54px;
+  background-color: #7ee5da;
+}
+.section2 {
+  font-size: small;
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #fff;
+  height: 60px;
+  background-color: #70ccc2;
+}
+.section3 {
+  font-size: small;
+  flex-grow: 2;
+  padding: 2px;
+  border: 1px solid #fff;
+  height: 72px;
+  background-color: #62b3aa;
+}
+footer {
+  margin: 16px;
+  text-align: center;
+  font-size: small;
+}
